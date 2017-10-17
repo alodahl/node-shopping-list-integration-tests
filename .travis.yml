@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: qeIq2UOnmywasZ3lHtsCCCdI04rid1U3XBRJW/LxSla1lJgRK/CCHVRbOwVyxj9z0jn+dOe4ZVZlqyXfLV2lRCCMKKrdzzFjYkV5EDg5O49EVbsgCerzSOaDs0IIG0LN7hMqXChTygIPT3B7ppq2Oj+USIQucsgXa07CiybWeYzsm4v15bPMmIjzNDSbAna2FGIxWfqtiDYw3hweh/1w4UFAy6aKer+rewGZWcITAXkkm4Kgd/B4hVux5JJ//Jv4AWcx3vZaTMypcvP0uPmfE6AG09YKU8He/ae7xXhbfwKNnwyG975hJr7dYfM2TxRqwfq3uMYdW+zUiM1Fadi4FPOM4m5cqwAf4MkLAh8GH97jvDQMTIt5PeQX/fLRhMlK0jHwYg0SaO5F4Fxb8XmK/CYni+xLjzIQYRoOkaW9QVAF2XOWy49dWPcU4uTM5ic7U5uhQcs6XBDN4SV7eq9/vnPpTjFo9CbsXbxjnquigksn+ROSRa29wZ25uGJVHOmd/xpw39Dt4qTWxrEWy6ABh6mw786+f1zPr6F+HcWIFrVitrpCmlYP6Si41QwOfbZoz5aGzN8VvXNyY7kYIoKF84SwXWh/N6PkVxjVj8uaSYtM3o6zAb8+WamFDtTs+4ygtVRGqHhP+39gNODohiOph0K3ywWdaVRoHZi8sg1OCkQ=
+  app: ancient-dawn-37009
+  on:
+    repo: alodahl/node-shopping-list-integration-tests
+    branch: test-for-recipes
